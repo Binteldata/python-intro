@@ -1,0 +1,15 @@
+from datetime import date
+
+today = date.today()
+print("what is today's date?", today)
+print('Breakfast calories?')
+calories_1 = int(input())
+print('Lunch calories?')
+calories_2 = int(input())
+print('Dinner calories?')
+calories_3 = int(input())
+print('Snack calories?')
+calories_4 = int(input())
+print('Calorie content for', today)
+sum = (calories_1 + calories_2 + calories_3 + calories_4)
+print(int(sum))
